@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="log-in-div" id="log-in-div">
+        <img src="user.png" alt="user icon" class="user-icon" />
+        <h5 class="title">USER LOGIN</h5>
+        <div class="user-input">
+          <img src="user1.png" alt="user1-icon" class="user1-icon" />
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your username"
+            class="login-input"
+          />
+        </div>
+
+        <div class="password-input">
+          <img src="padlock.png" alt="padlock" class="padlock-icon" />
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            class="login-input"
+          />
+        </div>
+        <div id="loading">
+          <p class="load">Loading</p>
+          <img
+            src="loading-gif-png-5.gif"
+            alt="loading gif"
+            class="loading-gif"
+          />
+        </div>
+        <button id="login-button">LOGIN</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
